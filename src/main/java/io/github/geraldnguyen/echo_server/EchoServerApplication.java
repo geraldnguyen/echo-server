@@ -1,11 +1,11 @@
 package io.github.geraldnguyen.echo_server;
 
+import nguyen.gerald.echo.EnableEchoController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("nguyen.gerald.echo")
+@EnableEchoController
 public class EchoServerApplication {
 
 	public static void main(String[] args) {

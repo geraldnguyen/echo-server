@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>io.github.geraldnguyen</groupId>
 			<artifactId>echo</artifactId>
-			<version>0.0.2</version>
+			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>
